@@ -1,0 +1,24 @@
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(12, 20, 20);
+    box-sizing: border-box;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.error-container {
+    display: block;
+    height: 20px;
+}
+
+.error-msg {
+    color: red;
+}
+
+.formulario {
+    max-width: 1000px;
+}
